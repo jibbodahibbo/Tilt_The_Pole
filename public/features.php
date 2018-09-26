@@ -1,0 +1,148 @@
+<?php require_once('../private/initialize.php') ?>
+<?php $currentpage="features" ?>
+<?php  include(SHARED_PATH . '/header.php') ?>
+  <!--------Header-->
+
+<div class="ttp-features-banner">
+
+<div id="ttp-page-over">
+
+
+<div class="row " >
+
+    <div class="col-md-12" style="text-align:center;">
+<h1>Features</h1>
+<br>
+<p id="ttp-features-text">Let's take a closer look at some of the features that make The patented product called the TTP (Tilt the Pole) succeed.</p>
+    </div>
+</div>
+</div>
+</div>
+
+
+    <div class="row">
+    <div class="col-md-6 " >
+
+<!-- Large modal -->
+<a style="cursor: pointer;" data-toggle="modal" data-target=".bd-example-modal-lg">
+  <img class ="w-100"src="images/image_features.png" alt="">
+</a>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img class="w-100" src="images/image_features.png" alt="">
+    </div>
+  </div>
+</div>
+    </div>
+
+    <script type="text/javascript">
+
+        $('#fModal').on('shown.bs.modal', function () {
+          $('#myInput').trigger('focus')
+        })
+    </script>
+
+    <div class="col-md-6 " >
+      <h2>Tilt The Pole</h2>
+<p>The patented product is called the <b>TTP</b> (Tilt the Pole) for contract umbrellas.</p>
+<p>
+  <b>Tilt -
+</b>
+A 1.5” diameter umbrella pole is safely secured in the upper housing.
+Push knob to tilt
+3 locked tilted positions - 0°, 15°, 30°
+Internal gas springs help to move the umbrella smoothly and safely.
+Al extrusion with 9 mm wall thickness
+</p>
+<p><b>
+Rotate -
+</b>
+Pull knob to lock/unlock rotate
+Locked in 8 positions
+Al extrusion with 9 mm wall thickness</p>
+    </div>
+  </div><!--row-->
+<hr>
+
+  <div class="row">
+  <div class="col-md-6 " >
+
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D0SyyByz6DY?rel=0&amp;showinfo=0" frameborder="0"  allowfullscreen></iframe>
+  </div>
+</div>
+  <div class="col-md-6 " >
+    <h2>Technical Specifications</h2>
+  </div>
+</div><!--row-->
+
+
+<hr>
+
+<div class="row">
+<div class="col-md-6 " >
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tFNV64K16Xg" frameborder="0"  allowfullscreen></iframe>
+</div>
+
+</div>
+
+<div class="col-md-6 " >
+  <h2>Wind Resistance</h2>
+</div>
+</div><!--row-->
+
+
+<div id="ttp-content-group">
+  <div class="row text-center" >
+  <div class="col-md-12">
+
+<h1 id="ttp-content-header">Buying Options</h1>
+
+  </div>
+</div>
+
+
+<div class="row text-center">
+<div class="col-md-3">
+<img src="images/F_BuyingOptions.jpg" alt="">
+<p>TTP only-
+add your own lower post, upper post/umbrella
+</p>
+<button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
+
+</div>
+<div class="col-md-3">
+<img src="images/F_BuyingOptions.jpg" alt="">
+<p>TTP only-
+add your own lower post, upper post/umbrella
+</p>
+<button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
+
+</div>
+<div class="col-md-3">
+<img src="images/F_BuyingOptions.jpg" alt="">
+<p>TTP only-
+add your own lower post, upper post/umbrella
+</p>
+<button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
+
+</div>
+<div class="col-md-3">
+<img src="images/F_BuyingOptions.jpg" alt="">
+<p>TTP only-
+add your own lower post, upper post/umbrella
+</p>
+<button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Footer -->
+
+<?php  include(SHARED_PATH . '/footer.php') ?>

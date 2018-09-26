@@ -1,0 +1,185 @@
+body{
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+  }
+body b{
+  font-weight: 600;
+}
+
+h4{
+  color:#ca0000;
+  font-weight: 250;
+}
+
+h6{
+  color:#ca0000;
+  font-weight: 300;
+}
+
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+
+}
+#ttp-home-over h1{
+font-weight: 300;
+text-align: left;
+  color:white;
+  margin-right:10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#ttp-home-overimage{
+vertical-align: center;
+
+}
+
+#ttp-home-over{
+  color:white;
+
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
+
+#ttp-home-over p{
+text-align: left;
+  color:white;
+  margin-right:10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#ttp-home-banner{
+font-family: 'Montserrat', sans-serif;
+background-image: url("../images/Image1.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+
+#ttp-home-tab-content{
+margin-right:5%;
+margin-left:5%;
+margin-bottom:100px;
+
+}
+#ttp-home-tabs{
+
+}
+#ttp-home-tabs a{
+
+}
+#ttp-home-tabs li{
+padding-right:10px;
+}
+
+#ttp-home-image{
+
+}
+#ttp-pain-promise-solution{
+  margin-top:50px;
+  margin-left:10%;
+  margin-right:10%;
+  color:black;
+
+}
+
+#ttp-tab !important{
+display:inline;
+}
+#ttp-tab p !important{
+  margin-left:20px;
+}
+
+#tabs-row{
+margin-top:20px;
+
+}
+.page-footer{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:100;
+color:white;
+  background-color:#05142f;
+}
+.page-footer a {
+  color:#ca0000;
+}
+
+#ttp-shade_image {
+    height:300px;
+    position: relative;
+}
+
+#ttp-shade_table td {
+    padding:20px;
+    position: relative;
+
+
+}
+#ttp-shade_table th {
+background-color: white;
+color:05142f;
+padding:10px;
+border-radius:5px;
+text-align:center;
+}
+
+.ttp-page-title{
+font-family: 'Montserrat', sans-serif;
+  background-color:#05142f;
+  color:white;
+  border: 0px;
+  padding: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.ttp-features-banner{
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-image: url("../images/Resort_1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+margin-bottom:35px;
+
+}
+
+
+#ttp-page-over{
+  color:white;
+
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:rgba(0, 0, 0, 0.5);
+
+}
+
+#ttp-features-text {
+  margin-left:25%;
+  text-align:center;
+  width:50%;
+}
+
+#ttp-content-header{
+color:#05142f;
+border-bottom: 1px solid #05142f;
+padding:20px;
+background-color:#eeeeee;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+#ttp-content-group{
+  margin-top:50px;
+  padding:10px;
+  border:3px solid #05142f;
+}
+
+#ttp-contact{
+list-style-type: none;
+text-decoration: none;
+
+}
