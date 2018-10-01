@@ -72,6 +72,7 @@
       <img src="images/C_RotateGraphic_300x300.gif" alt="">
           </td>
           <td>
+            <h4>How It Works</h4>
           <p>By tilting and rotating the umbrella you obtain maximum shade protection even in the windiest conditions.
           </p>
           <ul>
@@ -85,8 +86,8 @@
     </div>
     <div class="tab-pane fade" id="v-pills-shade" role="tabpanel" aria-labelledby="v-pills-shade-tab">
       <table id="ttp-shade_table">
-        <th>Good Shade</th>
-        <th>No Shade</th>
+        <th><h4>Good Shade</h4></th>
+        <th> <h4>Bad Shade</h4> </th>
         <tr>
           <td >
       <img src="images/shade_1.png" alt="" id="ttp-shade_image">
@@ -112,6 +113,7 @@
       <img src="images/tilt_home.gif" height="250px" alt="">
           </td>
           <td>
+            <h4>Tipping vs. Tilting</h4>
           <p >The reason we call it “tipping” is because you are simply tilting the “tip” of the umbrella. There are several types-collar tilt, crank tilt, etc. but these all use a small knuckle to tilt the tip of the umbrella. This is a very weak joint and it will fail in windy conditions.
             The other weakness of tipping is shade coverage. See "pink" arrows. This is the coverage you will get with a traditional "tilting umbrella". But when you tilt the pole, you will gain 50% more coverage ("yellow arrows").
           </p>
@@ -126,9 +128,15 @@
       <img src="images/C_RotateGraphic_300x300.gif" alt="">
           </td>
           <td>
-          <p >The reason we call it “tipping” is because you are simply tilting the “tip” of the umbrella. There are several types-collar tilt, crank tilt, etc. but these all use a small knuckle to tilt the tip of the umbrella. This is a very weak joint and it will fail in windy conditions.
-            The other weakness of tipping is shade coverage. See "pink" arrows. This is the coverage you will get with a traditional "tilting umbrella". But when you tilt the pole, you will gain 50% more coverage ("yellow arrows").
-          </p>
+
+            <h4>Maximize the shade with multiple settings</h4>
+            <ul>
+              <li><b>Tilt</b> up to 30˚ with three tilt settings.</li>
+              <li><b>Rotate</b> a full 360˚ with eight rotation settings</li>
+            </ul>
+
+
+
           </td>
         </tr>
       </table>
