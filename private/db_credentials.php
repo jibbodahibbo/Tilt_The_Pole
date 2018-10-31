@@ -6,4 +6,3 @@ define("DB_NAME", "heroku_942adfaec1d5dac");
 
 
  ?>
-mysql://bd0da8fb4f204d:db2cf689@us-cdbr-iron-east-01.cleardb.net/heroku_942adfaec1d5dac?reconnect=true
