@@ -3,7 +3,7 @@
 define("DB_SERVER", $url["host"]);
 define("DB_USER", $url["user"]);
 define("DB_PASS", $url["pass"]);
-define("DB_NAME", substr($url["path"], 1);
+define("DB_NAME", substr($url["path"], 1));
 
 
 
