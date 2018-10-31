@@ -75,6 +75,15 @@ Al extrusion with 9 mm wall thickness</p>
 </div>
   <div class="col-md-6 " >
     <h2>Technical Specifications</h2>
+<br>
+<ul >
+  <li style="margin-top:5pt;">The TTP is fully encased. </li>
+  <li style="margin-top:5pt;">Easy to use Pull to Rotate and Push to Tilt knobs.</li>
+  <li style="margin-top:5pt;">Slides into the top of your umbrella posts.</li>
+  <li style="margin-top:5pt;">1.5 inch pole recommended with 2mm thick wall and fiberglass ribs.</li>
+</ul>
+
+
   </div>
 </div><!--row-->
 
@@ -91,7 +100,14 @@ Al extrusion with 9 mm wall thickness</p>
 
 <div class="col-md-6 " >
   <h2>Wind Resistance</h2>
+  <p>
+  Wind tunnel testing was performed to test the durability of Tilt the Pole.  Winds were maintained up to 50 mph against the umbrella and TTP.
+
+  The TTP was tested "stand alone" (no umbrella) with sustained winds of 97 mph.
+  </p>
 </div>
+
+
 </div><!--row-->
 
 
@@ -115,25 +131,22 @@ add your own lower post, upper post/umbrella
 
 </div>
 <div class="col-md-3">
-<img src="images/F_BuyingOptions.jpg" alt="">
-<p>TTP only-
-add your own lower post, upper post/umbrella
+<img src="images/G_BuyingOptions.jpg" alt="">
+<p>TTP with purchased upper post – plug in your 2 piece pole umbrella. Add lower post
 </p>
 <button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
 
 </div>
 <div class="col-md-3">
-<img src="images/F_BuyingOptions.jpg" alt="">
-<p>TTP only-
-add your own lower post, upper post/umbrella
+<img src="images/H_BuyingOptions.jpg" alt="">
+<p>TTP with purchased lower post-add upper post or insert umbrella.
 </p>
 <button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
 
 </div>
 <div class="col-md-3">
-<img src="images/F_BuyingOptions.jpg" alt="">
-<p>TTP only-
-add your own lower post, upper post/umbrella
+<img src="images/I_BuyingOptions.jpg" alt="">
+<p>TTP with purchased upper post and lower post-simple. Add your umbrella
 </p>
 <button class="btn btn-primary" style="font-size:10pt;" href="#" >Purchase Today </button>
 

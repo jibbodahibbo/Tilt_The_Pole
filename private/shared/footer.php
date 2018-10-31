@@ -72,3 +72,4 @@
 
       </div><!--containter-->
 </html>
+<?php db_disconnect($db); ?>

@@ -39,7 +39,7 @@ content_css: [
 </div>
 
 
-<form class="blog_form" action="index.html" method="post">
+<form class="blog_form" action="<?php echo url_for('/staff/blog/create.php');?>" method="post">
 
 
 <div class="row">
@@ -50,21 +50,27 @@ content_css: [
 </div>
 <div class="row">
   <div class="col-md-6">
-        <label for="title">Title</label>
-        <input type="text" name="title" value="">
+        <label for="title">Subtitle</label>
+        <input type="text" name="subtitle" value="">
   </div>
 </div>
 <div class="row">
   <div class="col-md-12">
 
 
-    <textarea id="mytextarea">
+    <textarea id="mytextarea" name="content">
 
     </textarea>
 
   </div>
 </div>
 
+<br>
+<div class="row">
+<div class="col-md-8">
+<input class = "btn btn-success" type="submit" value="Create Subject">
+</div>
+</div>
 
 </form>
 
