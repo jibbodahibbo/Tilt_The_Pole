@@ -23,35 +23,28 @@
 </div>
 
 <?php
-$x=0;
-while($blog_post = mysqli_fetch_assoc($blogposts) and $x < 3){
-$x+=1;   ?>
+
+while($blog_post = mysqli_fetch_assoc($blogposts) ){?>
 <div class="row">
 <div class="col-md-12 " >
 <!--Blog content goes here -->
-<h1> <?php echo h($blog_post['title']); ?> </h1>
+<h1> <a href="<?php echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>"> <?php echo h($blog_post['title']); ?> </a> </h1>
 <h4><?php echo h($blog_post['subtitle']); ?></h4>
-<hr>
-<div class="">
-  <?php echo $blog_post['content']; ?>
-</div>
-
 <small> <?php echo h($blog_post['date']); ?></small>
 </div>
 
-<br>
-<br>
 </div>
-<br><br><br>
 <hr>
 <?php }?>
 
 <br>
+<a href="<?php echo WWW_ROOT . '/blog.php';?>"> Back</a>
+
 
 <?php
 mysqli_free_result($blogposts);
  ?>
-<a class="nav-link" href="<?php echo WWW_ROOT . '/bloglist.php';?>">More Posts</a>
+
 
 <!-- Footer -->
 

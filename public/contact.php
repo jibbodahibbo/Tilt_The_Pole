@@ -1,7 +1,7 @@
 <?php require_once('../private/initialize.php') ?>
 <?php $currentpage="contact" ?>
 <?php  include(SHARED_PATH . '/header.php') ?>
-
+<?php $confirm = isset($_GET['sent']) ? $_GET['sent']: 'false'; ?>
   <!--Header-->
 
 <div class="ttp-features-banner">
@@ -18,9 +18,11 @@
 </div>
 </div>
 
+<?php if ($confirm=='true'){ ?>
+<h5 class="alert alert-primary">Submission successful</h5>
 
 
-
+<?php } ?>
 
 <br>
 <div class="row">
@@ -31,14 +33,14 @@
 
         <h3>Residential Customers</h3>
         <h6>For single purchase or other questions, please click below.</h6>
-        <button class="btn btn-primary" type="button" name="button">Residential</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" >Residential</button>
 
 <br>
 <br>
 
         <h3>Commercial Customer or Trade Professional</h3>
         <h6>For commerical installation requests or any other inquires, please click below.</h6>
-        <button class="btn btn-primary" type="button" name="button">Commercial</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Commercial</button>
       </div>
 
       <div class="col-md-1 " >
@@ -72,6 +74,79 @@
 </div>
 </div>
 <br>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="<?php echo WWW_ROOT . '/send_message.php?id=res';?>" method="post">
+          <div class="form-group">
+            <label for="name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-form-label">Email</label>
+            <input type="text" class="form-control" name="email">
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-form-label">Message:</label>
+            <textarea class="form-control"  name="message"></textarea>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <input type="submit" class="btn btn-primary"  type="Submit" name="" value="Send Message">
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="<?php echo WWW_ROOT . '/send_message.php';?>" method="post">
+          <div class="form-group">
+            <label for="name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-form-label">Email</label>
+            <input type="text" class="form-control" name="email">
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-form-label">Message:</label>
+            <textarea class="form-control"  name="message"></textarea>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <input type="submit" class="btn btn-primary"  type="Submit" name="" value="Send Message">
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
 

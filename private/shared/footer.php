@@ -55,6 +55,9 @@
 <li>
   <a href="<?php echo WWW_ROOT . '/company.php';?>"> Company</a>
 </li>
+<li>
+  <a href="<?php echo WWW_ROOT . '/blog.php';?>"> Blog</a>
+</li>
 </ul>
 </div>
 <!-- Grid column -->
