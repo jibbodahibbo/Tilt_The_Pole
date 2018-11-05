@@ -40,7 +40,7 @@
             <li>File size: <?php echo $_FILES['image']['size'];  ?>
             <li>File type: <?php echo $_FILES['image']['type'] ?>
 
-      <li>    <?php echo url_for( $_FILES['image']['name'] )?> </li>
+        <li>    <?php echo PUBLIC_PATH . '/staff/blog/images/' . $_FILES['image']['name'] ?> </li>
          </ul>
 
       </form>
