@@ -1,4 +1,7 @@
+<?php require_once('../private/initialize.php') ?>
 <?php
+
+
    if(isset($_FILES['image'])){
       $errors= array();
       $file_name = $_FILES['image']['name'];
@@ -7,9 +10,9 @@
       $file_type = $_FILES['image']['type'];
       $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
 
-      $expensions= array("jpeg","jpg","png");
+      $extensions= array("jpeg","jpg","png");
 
-      if(in_array($file_ext,$expensions)=== false){
+      if(in_array($file_ext,$extensions)=== false){
          $errors[]="extension not allowed, please choose a JPEG or PNG file.";
       }
 
@@ -37,7 +40,7 @@
             <li>File size: <?php echo $_FILES['image']['size'];  ?>
             <li>File type: <?php echo $_FILES['image']['type'] ?>
 
-          <?php echo WWW_ROOT . $_FILES['image']['name'] ?>
+      <li>    <?php echo WWW_ROOT . $_FILES['image']['name'] ?> </li>
          </ul>
 
       </form>
