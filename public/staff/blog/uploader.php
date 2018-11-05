@@ -21,12 +21,22 @@
       }
 
       if(empty($errors)==true) {
-         move_uploaded_file($file_tmp,"images/".$file_name);
+        $directory = "images/blog/";
+        $filecount = 0;
+        $files = glob($directory . "*");
+        if ($files){
+         $filecount = count($files);
+        }
+        $a = "$filecount";
+         move_uploaded_file($file_tmp,"images/blog/". $a . $file_name );
+         copy("images/blog/".$a.$file_name, PUBLIC_PATH ."/images/blog/". $a . $file_name );
+
          echo "Success";
       }else{
          print_r($errors);
       }
    }
+
 ?>
 <html>
    <body>
@@ -40,7 +50,8 @@
             <li>File size: <?php echo $_FILES['image']['size'];  ?>
             <li>File type: <?php echo $_FILES['image']['type'] ?>
 
-        <li>    <?php echo PUBLIC_PATH . '/staff/blog/images/' . $_FILES['image']['name'] ?> </li>
+        <li> File URL:   <?php echo 'images/blog' .$a. $_FILES['image']['name']  ?> </li>
+        <small>Copy this file URL into your media link</small>
          </ul>
 
       </form>
