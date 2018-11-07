@@ -91,20 +91,6 @@ content_css: [
 </div>
 
 
-<form action = "?=" method = "POST" enctype = "multipart/form-data">
-   <input type = "file" name = "image" />
-   <input type = "submit"/>
-<?php if(isset($_FILES['image'])){ ?>
-   <ul>
-      <li>Sent file: <?php echo $_FILES['image']['name'];  ?>
-      <li>File size: <?php echo $_FILES['image']['size'];  ?>
-      <li>File type: <?php echo $_FILES['image']['type'] ?>
-
-  <li> File URL:   <?php echo 'images/blog/' .$a. $_FILES['image']['name']  ?> </li>
-  <small>Copy this URL into your image source</small>
-   </ul>
-<?php } ?>
-</form>
 
 <form class="blog_form" action="<?php echo url_for('/staff/blog/create.php');?>" method="post">
 
