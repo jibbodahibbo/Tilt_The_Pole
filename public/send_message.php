@@ -2,10 +2,11 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require_once('../private/initialize.php');
-include(SHARED_PATH . '/header.php');
 
 //Load Composer's autoloader
 require '../vendor/autoload.php';
+include(SHARED_PATH . '/header.php');
+$currentpage="contact";
 
 ini_set('display_errors',1);
 if(isset($_POST['email'])) {
@@ -127,9 +128,7 @@ if(isset($_POST['email'])) {
         $mail->Body .= "Message: ".clean_string($comments)."<br>";
         $mail->AltBody = $first_name ."\n".$email_from . "\n". $comments;
 
-        require_once('../private/initialize.php');
-        $currentpage="contact";
-        include(SHARED_PATH . '/header.php');
+
         $mail->send();
 
         redirect_to(url_for('/contact.php?sent=true'));
