@@ -1,6 +1,8 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+require_once('../private/initialize.php');
+include(SHARED_PATH . '/header.php');
 
 //Load Composer's autoloader
 require '../vendor/autoload.php';
@@ -10,16 +12,38 @@ if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "jtwesterkamp@gmail.com";
-    $email_subject = "Your email subject line";
+    $subject = isset($_GET['id']) ? $_GET['id']: '';
+    if ($subject =='res'){
+    $email_subject = "Residential Customer Message";
+    }else{
+    $email_subject = "Commercial Customer Message";
+    }
 
     function died($error) {
-        // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
-        die();
-    }
+
+          ?>
+          <br><br><br>
+          <div class="container">
+
+
+          <div class="row">
+            <div class="col-md-12">
+
+          <h3>  <?php    echo "We are very sorry, but there were error(s) found with the form you submitted. ";?></h3>
+          <h3>  <?php    echo "These errors appear below.<br /><br />";?></h3>
+          <p>  <?php      echo $error."<br /><br />"; ?></p>
+          <h3> <a href="<?php echo WWW_ROOT . '/contact.php';?>" > <?php    echo "Please go back and fix these errors.<br /><br />"; ?></a></h3>
+
+            </div>
+          </div>
+        </div>
+        <?php
+            include(SHARED_PATH . '/footer.php');
+            die();
+        }
+
+        ?>
+    <?php
 
 
     // validation expected data exists
@@ -79,7 +103,7 @@ if(isset($_POST['email'])) {
     $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
     try {
         //Server settings
-        $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+      //  $mail->SMTPDebug = 2;                                 // Enable verbose debug output
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -97,17 +121,22 @@ if(isset($_POST['email'])) {
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = $email_subject;
-        $MAIL->Body = "Form details below.\n\n";
-        $mail->Body .= "Name: ".clean_string($first_name)."\n";
-        $mail->Body .= "Email: ".clean_string($email_from)."\n";
-        $mail->Body .= "Message: ".clean_string($comments)."\n";
-        $mail->AltBody = $first_name .' '. $email_from .' '. $comments;
+        $mail->Body = "Form details below". "<br>";
+        $mail->Body .= "Name: ".clean_string($first_name)."<br>";
+        $mail->Body .= "Email: ".clean_string($email_from)."<br>";
+        $mail->Body .= "Message: ".clean_string($comments)."<br>";
+        $mail->AltBody = $first_name ."\n".$email_from . "\n". $comments;
 
-
+        require_once('../private/initialize.php');
+        $currentpage="contact";
+        include(SHARED_PATH . '/header.php');
         $mail->send();
-        echo 'Message has been sent';
+
+        redirect_to(url_for('/contact.php?sent=true'));
     } catch (Exception $e) {
-        echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+
+
+        redirect_to(url_for('/contact.php?sent=error'));
     }
 
   }

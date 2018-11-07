@@ -20,9 +20,12 @@
 
 <?php if ($confirm=='true'){ ?>
 <h5 class="alert alert-primary">Submission successful</h5>
-
+<?php } ?>
+<?php if ($confirm=='error'){ ?>
+<h5 class="alert alert-warning">Submission Failed, Try Again</h5>
 
 <?php } ?>
+
 
 <br>
 <div class="row">
