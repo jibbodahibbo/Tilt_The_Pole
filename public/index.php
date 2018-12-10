@@ -7,7 +7,7 @@
 <div class="row" id="ttp-home-banner">
 
   <div class="col-sm-5  d-flex justify-content-center " id="ttp-home-over">
-    <img width="300px" height="300px"src="images/B_CircleImage.png"  id="ttp-home-overimage">
+    <img width="244px" height="349px"src="images/TTP_Blue.png"  id="ttp-home-overimage">
 
   </div>
 

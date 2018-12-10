@@ -20,9 +20,8 @@
 <div class="row text-center" id="top">
       <div class="col-md-4 " >
         <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Pain</h5>
+            <h2 class="card-title">Pain</h2>
             <p class="card-text">Shadeless afternoons in the scorching heat</p>
           </div>
         </div>
@@ -30,9 +29,8 @@
 
         <div class="col-md-4 " >
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Promise</h5>
+              <h2 class="card-title">Promise</h2>
               <p class="card-text">Provide comfort and shade all day long</p>
             </div>
           </div>
@@ -40,9 +38,8 @@
 
           <div class="col-md-4 " >
             <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Solution</h5>
+                <h2 class="card-title">Solution</h2>
                 <p class="card-text">Relief from the sun using Tilt The Pole</p>
               </div>
             </div>
