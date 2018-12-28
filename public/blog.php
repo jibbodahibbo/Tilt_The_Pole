@@ -47,7 +47,7 @@ $x+=1;   ?>
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-share-button" data-href="<?php echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href=" <?php echo "https://www.facebook.com/sharer/sharer.php?u=" . WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>" class="fb-xfbml-parse-ignore">Share</a></div>
 
-<a href=" <?php echo "https://www.linkedin.com/shareArticle?mini=true&url=" . WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])) . "&title=LinkedIn%20Developer%20Network &summary=My%20favorite%20developer%20program&source=LinkedIn"    ?>" > linkdin</a>
+<a href=" <?php  "https://www.linkedin.com/shareArticle?mini=true&url=" . echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])) . "&title=LinkedIn%20Developer%20Network &summary=My%20favorite%20developer%20program&source=LinkedIn"    ?>" > linkdin</a>
 
 <!--- Social Share END-->
 <br>
