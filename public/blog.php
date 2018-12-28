@@ -46,7 +46,7 @@ $x+=1;   ?>
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-share-button" data-href="<?php echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href=" <?php echo "https://www.facebook.com/sharer/sharer.php?u=" . WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>" class="fb-xfbml-parse-ignore">Share</a></div>
-<a href= "https://www.linkedin.com/shareArticle?mini=true&url=https://<?php echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id']));?>&title=TITLE&summary=newtiltthepole&source=">Share on LinkedIn</a>
+<a href= "https://www.linkedin.com/shareArticle?mini=true&url=http://safe-hollows-17719.herokuapp.com<?php echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id']));?>&title=TITLE&summary=newtiltthepole&source=">Share on LinkedIn</a>
 
 
 <!--- Social Share END-->
