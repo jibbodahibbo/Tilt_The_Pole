@@ -45,9 +45,10 @@ $x+=1;   ?>
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-
 <div class="fb-share-button" data-href="<?php echo WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href=" <?php echo "https://www.facebook.com/sharer/sharer.php?u=" . WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])); ?>" class="fb-xfbml-parse-ignore">Share</a></div>
+
+<a href="  <?php echo "http://www.linkedin.com/shareArticle?mini=true&url= ". WWW_ROOT . "/blogpost.php?id=" . h(u($blog_post['id'])) .   "  &title=How%20to%20make%20custom%20linkedin%20share%20button&summary=some%20summary%20if%20you%20want&source=stackoverflow.com" ?> " > linkdin</a>
+
 <!--- Social Share END-->
 <br>
 <small> <?php echo h($blog_post['date']); ?></small>
