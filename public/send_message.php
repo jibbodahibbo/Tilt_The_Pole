@@ -1,10 +1,11 @@
 <?php
+ob_start();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require_once('../private/initialize.php');
 
 //Load Composer's autoloader
-require '../vendor/autoload.php';
+require('../vendor/autoload.php');
 include(SHARED_PATH . '/header.php');
 $currentpage="contact";
 

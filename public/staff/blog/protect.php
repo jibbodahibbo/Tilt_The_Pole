@@ -6,23 +6,30 @@ namespace Protect;
 # to get them in. The optional scope allows access on one page to
 # grant access on another page. If not specified then it only grants
 # access to the current page.
+ob_start();
+
+
 function with($form, $password, $scope=null) {
+$submittedpass = isset($_POST['password']) ? $_POST['password']: '';
+
+
   if( !$scope ) $scope = current_url();
   $session_key = 'password_protect_'.preg_replace('/\W+/', '_', $scope);
   session_start();
   # Check the POST for access
 
-
-
-  if( $_POST['password'] == $password ) {
+ if( $submittedpass == $password ) {
     $_SESSION[$session_key] = true;
     redirect(current_url());
   }
 
+$currentsession = isset($_SESSION[$session_key]) ? $_SESSION[$session_key]: '';
+
   # If user has access then simply return so original page can render.
-  if( $_SESSION[$session_key] ) return;
+  if( $currentsession ) return;
   require $form;
   exit;
+
 }
 #### PRIVATE ####
 function current_url($script_only=false) {

@@ -81,6 +81,11 @@ Al extrusion with 9 mm wall thickness</p>
   <li style="margin-top:5pt;">Easy to use Pull to Rotate and Push to Tilt knobs.</li>
   <li style="margin-top:5pt;">Slides into the top of your umbrella posts.</li>
   <li style="margin-top:5pt;">1.5 inch pole recommended with 2mm thick wall and fiberglass ribs.</li>
+
+  <li style="margin-top:15pt;list-style-type:none;font-size:20px;"> <strong>Approved Umbrellas</strong></li>
+  <li style="margin-top:15pt;">East Coast Umbrella (market)</li>
+  <li style="margin-top:5pt;">Fiberbuilt Umbrellas (market)</li>
+
 </ul>
 
 
@@ -109,6 +114,7 @@ Al extrusion with 9 mm wall thickness</p>
 
 
 </div><!--row-->
+
 
 
 <div id="ttp-content-group">

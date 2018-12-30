@@ -23,26 +23,36 @@ $blog="active";
 $contact="active";
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
     <title>Tilt The Pole</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,100" rel="stylesheet" type="text/css">
 
-
-
-    <link rel="stylesheet" href=" <?php echo WWW_ROOT . '../../public/stylesheets/css/bootstrap.css'; ?>">
+    <link rel="stylesheet" href=" <?php echo WWW_ROOT . '/stylesheets/css/bootstrap.css'; ?>">
     <!-- <link rel="stylesheet" href="../public/stylesheets/css/bootstrap.css"> -->
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="../public/stylesheets/styles.css">
+    <link rel="stylesheet" href="<?php echo WWW_ROOT . '/stylesheets/styles.css'; ?>">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .fa {
+      padding:10px;
+      font-size: 25px;
+      width: 25px;
+      text-align: center;
+      text-decoration: none;
+      list-style-type: none;
+      color:black;
+      vertical-align: top;
+    }
+  </style>
+
   </head>
 <body>
     <div class="container">
@@ -88,7 +98,12 @@ $contact="active";
             <li class="nav-item">
               <a class="nav-link"  href="#">Purchase Today</a>
             </li>
-
+<li class="nav-item" style="margin-left:20px;">
+            <a href="https://www.facebook.com/tiltthepole" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/davidyoungrus/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCaVMnUv0LIIPCf2554LAy0A" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://twitter.com/tiltthepole" target="_blank" class="fa fa-twitter"></a>
+</li>
 
             </ul>
 
