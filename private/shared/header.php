@@ -53,6 +53,8 @@ $contact="active";
     }
   </style>
 
+
+
   </head>
 <body>
     <div class="container">
@@ -96,13 +98,21 @@ $contact="active";
               <a class="nav-link" href="<?php echo WWW_ROOT . '/blog.php';?>">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#">Purchase Today</a>
+              <a class="nav-link"  href="https://resort-umbrella-solutions.com/store.php">Purchase Today</a>
+            </li>
+            <li class="nav-item">
+              <img src="images/the-united-states-flag-icon.jpg" alt="" class="made_usa" width="60px">
             </li>
 <li class="nav-item" style="margin-left:20px;">
-            <a href="https://www.facebook.com/tiltthepole" target="_blank" class="fa fa-facebook"></a>
+
+              <a href="https://www.linkedin.com/in/davidyoungrus/" target="_blank" class="fa parler">
+              <img href="https://parler.com/profile/TiltthePole/posts" src="images/Parler-Logo.png" width="25px" alt="">
+              </a>
+
             <a href="https://www.linkedin.com/in/davidyoungrus/" target="_blank" class="fa fa-linkedin"></a>
             <a href="https://www.youtube.com/channel/UCaVMnUv0LIIPCf2554LAy0A" target="_blank" class="fa fa-youtube"></a>
-            <a href="https://twitter.com/tiltthepole" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.pinterest.com/2156lvdtaz6ic8n/" target="_blank" class="fa fa-pinterest"></a>
+
 </li>
 
             </ul>

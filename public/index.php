@@ -4,6 +4,7 @@
   <!--Header-->
 
 <!--body--->
+
 <div class="row" id="ttp-home-banner">
 
   <div class="col-sm-5  d-flex justify-content-center " id="ttp-home-over">
@@ -15,7 +16,7 @@
     <h1>Tilt the Pole</h1>
     <p><strong><i>Tilt the Pole = tilt the umbrella pole</strong></i></p>
     <p>Create shade all day long by tilting the umbrella pole. Our patented product provides maximum shade protection by tilting the umbrella pole – which creates usable shade all day. This is useful because the user can now enjoy shade all day without having to move his/her chair - an improved experience!  Applications include beaches, poolside, outdoor seating, outdoor restaurants -any location that gets sun all day long.  Used with contract umbrellas.</p>
-    <button class="btn btn-primary" style="font-size:20pt;" href="#" >Purchase Today </button>
+<a href="https://resort-umbrella-solutions.com/store.php">  <button class="btn btn-primary" style="font-size:20pt;"  >Purchase Today </button></a>
 
 </div><!--col-->
 </div><!--row-->
@@ -89,14 +90,6 @@
         <th><h4>Good Shade</h4></th>
         <th> <h4>Bad Shade</h4> </th>
         <tr>
-          <td >
-      <img src="images/shade_1.png" alt="" id="ttp-shade_image">
-          </td>
-          <td >
-      <img src="images/no_shade1.png" alt="" id="ttp-shade_image">
-          </td>
-        </tr>
-        <tr>
           <td>
       <p>Adjusting the umbrella to block the sun</p>
           </td>
@@ -104,19 +97,45 @@
       <p>Accepting the harshness of the sun</p>
           </td>
         </tr>
+        <tr>
+          <td >
+      <img src="images/shade_1.png" alt="" id="ttp-shade_image">
+          </td>
+          <td >
+      <img src="images/no_shade2.jpg" alt="" id="ttp-shade_image">
+          </td>
+        </tr>
+        <tr>
+          <td >
+      <img src="images/shade_2.jpg" alt="" id="ttp-shade_image">
+          </td>
+          <td >
+      <img src="images/no_shade1.jpg" alt="" id="ttp-shade_image">
+          </td>
+        </tr>
+        <tr>
+          <td >
+      <img src="images/shade_3.jpg" alt="" id="ttp-shade_image">
+          </td>
+          <td >
+      <img src="images/no_shade3.jpg" alt="" id="ttp-shade_image">
+          </td>
+        </tr>
+
       </table>
     </div>
     <div class="tab-pane fade" id="v-pills-tilt" role="tabpanel" aria-labelledby="v-pills-tilt-tab">
       <table id="ttp-shade_table">
         <tr>
           <td>
-      <img src="images/tilt_home.gif" height="250px" alt="">
+            <img src="images/tilt_home.gif" height="250px" alt="">
+            <h4>Strong Tilting</h4>
+          <p >The Tilt The Pole umbrellas is durable, STRONG and easy to manuever.</p>
           </td>
           <td>
-            <h4>Tipping vs. Tilting</h4>
-          <p >The reason we call it “tipping” is because you are simply tilting the “tip” of the umbrella. There are several types-collar tilt, crank tilt, etc. but these all use a small knuckle to tilt the tip of the umbrella. This is a very weak joint and it will fail in windy conditions.
-            The other weakness of tipping is shade coverage. See "pink" arrows. This is the coverage you will get with a traditional "tilting umbrella". But when you tilt the pole, you will gain 50% more coverage ("yellow arrows").
-          </p>
+            <img src="images/weakjoint.JPG" height="250px" alt="">
+            <h4>Standard Tipping</h4>
+          <p >The standard tipping method on umbrella poles is WEAK. These break often and do not provide as much coverage.</p>
           </td>
         </tr>
       </table>
@@ -124,10 +143,11 @@
   <div class="tab-pane fade " id="v-pills-settings" id="ttp-tab" role="tabpanel" aria-labelledby="v-pills-settings-tab">
       <table>
         <tr>
-          <td>
-      <img src="images/C_RotateGraphic_300x300.gif" alt="">
+          <td >
+      <img src="images/C_RotateGraphic_300x300.gif" width="40%"alt="">
+      <img src="images/D_TiltGraphic_300x300.gif" width="40%" alt="">
           </td>
-          <td>
+          <td >
 
             <h4>Maximize the shade with multiple settings</h4>
             <ul>

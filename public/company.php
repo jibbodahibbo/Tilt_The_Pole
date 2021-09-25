@@ -8,9 +8,9 @@
 <div id="ttp-page-over">
 <div class="row " >
     <div class="col-md-12" style="text-align:center;">
-<h1>Company</h1>
+<h2>"The product must be easy to use and safe."</h2>
 <br>
-<p id="ttp-features-text">The product must be easy to use and safe.</p>
+<p id="ttp-features-text">  <i>-David Young</i> </p>
  </div>
 </div>
 </div>

@@ -1,6 +1,18 @@
 <?php
 require_once('../../../private/initialize.php');
 
+function myescape($inp) {
+    if(is_array($inp))
+        return array_map(__METHOD__, $inp);
+
+    if(!empty($inp) && is_string($inp)) {
+        return str_replace(array('\\', "\0", "\n", "\r", "'", '"', "\x1a"), array('\\\\', '\\0', '\\n', '\\r', "\\'", '\\"', '\\Z'), $inp);
+    }
+
+    return $inp;
+}
+
+
 if(is_post_request()){
 $blog_post = find_subject_by_id();
 
@@ -8,6 +20,10 @@ $title = isset($_POST['title']) ? $_POST['title'] : '';
 $subtitle = isset($_POST['subtitle']) ? $_POST['subtitle'] : '';
 $content = isset($_POST['content']) ? $_POST['content'] : '';
 $date = $blog_post['date'];
+
+$title = myescape($title);
+$subtitle =  myescape($subtitle);
+
 
 
 $sql = "UPDATE blog_posts SET ";

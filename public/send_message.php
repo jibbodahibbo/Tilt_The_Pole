@@ -2,10 +2,10 @@
 ob_start();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-require_once('../private/initialize.php');
-
 //Load Composer's autoloader
 require('../vendor/autoload.php');
+
+require_once('../private/initialize.php');
 include(SHARED_PATH . '/header.php');
 $currentpage="contact";
 
@@ -101,7 +101,7 @@ if(isset($_POST['email'])) {
     // Import PHPMailer classes into the global namespace
     // These must be at the top of your script, not inside a function
 
-
+//MAYBE CHANGE THIS ON LIVE WEB
     $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
     try {
         //Server settings
@@ -140,4 +140,7 @@ if(isset($_POST['email'])) {
     }
 
   }
+
+
+
 ?>

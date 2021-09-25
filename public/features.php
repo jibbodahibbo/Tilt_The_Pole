@@ -64,6 +64,52 @@ Locked in 8 positions
 Al extrusion with 9 mm wall thickness</p>
     </div>
   </div><!--row-->
+
+<hr>
+
+  <div class="row">
+  <div class="col-md-6 " >
+
+<!-- Large modal -->
+<a style="cursor: pointer;" data-toggle="modal" data-target=".bd-b-modal-lg">
+<img class ="w-100"src="images/CC-2.gif" alt="">
+</a>
+
+<div class="modal fade bd-b-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabelb" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <img class="w-100" src="images/CC-2.gif" alt="">
+  </div>
+</div>
+</div>
+  </div>
+
+  <script type="text/javascript">
+
+      $('#fModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+  </script>
+
+  <div class="col-md-6 " >
+    <h2>Moves the Entire Umbrella Pole</h2>
+<p>Tilt the Pole® moves the entire umbrella pole.  You can track the sun and create shade all day long.
+  The umbrella shown in this GIF is a 9' commercial-duty fiberglass ribbed umbrella.
+  We have worked with many commercial umbrellas.
+</p>
+    <p>
+Tested against 50+ mph winds (the world's only industrial tilt), this offers 50% more shade
+than tilting umbrellas and 300% more shade than umbrellas without tilt (that is like having 1
+ umbrella cover the same space as 3 umbrellas).  The 9' umbrella provides 50% more shade than a 10'
+ offset umbrella.</p>
+ <p>
+Never move your chair- just rotate and tilt the pole in the direction of the sun.  Track the sun and create shade all day long.
+
+
+</p>
+  </div>
+</div><!--row-->
+
 <hr>
 
   <div class="row">

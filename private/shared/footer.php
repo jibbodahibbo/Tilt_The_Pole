@@ -11,7 +11,7 @@
   <h1>Tilt the Pole</h1>
   <p><strong><i>Tilt the Pole = tilt the umbrella pole</strong></i></p>
   <p>Create shade all day long by tilting the umbrella pole. </p>
-  <button class="btn btn-primary" style="font-size:20pt;" href="#" >Purchase Today </button>
+  <a href="https://resort-umbrella-solutions.com/store.php">  <button class="btn btn-primary" style="font-size:20pt;"  >Purchase Today </button></a>
 
 </div>
 <div class="col-md-3 mt-md-0 mt-3">
